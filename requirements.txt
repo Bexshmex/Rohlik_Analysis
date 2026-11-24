@@ -1,0 +1,12 @@
+pandas
+numpy
+pyarrow
+scipy
+scikit-learn
+matplotlib
+seaborn
+ipykernel
+jupyterlab>=4
+notebook>=7
+sqlalchemy
+psycopg2-binary

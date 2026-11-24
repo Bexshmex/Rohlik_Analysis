@@ -1,0 +1,17 @@
+# Data (too large for GitHub, download from Kaggle)
+data/
+*.csv
+*.parquet
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
