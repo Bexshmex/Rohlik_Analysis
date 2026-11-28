@@ -34,7 +34,7 @@ ORDER BY
     year;
 -- Summary: YoY for each warehouse and year, revenue increases (includes only years with full 12 months, others are avoided).
 -- Frankfurt_1 warehouse leaves without any YoY comparison due to an absence of January in 2022 - it will be calculated separately with help of 'Like for Like'
--- Munich_1 warehouse shows skyrocket increase in revenue 2023 comparing with 2022 revenue (50 %)
+-- Munich_1 warehouse shows skyrocket increase in revenue 2023 comparing with 2022 revenue (49.99 %)
 
 WITH monthly_revenue AS (
     SELECT

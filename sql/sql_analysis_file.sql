@@ -57,3 +57,7 @@ ORDER BY
     year,
     month;
 
+SELECT ROUND(SUM(real_revenue_czk)) AS real_rev,
+       ROUND(SUM(lost_revenue_czk)) AS lost_rev,
+       COUNT(*)                     AS rows_cnt
+FROM analytics.fact_sales;
